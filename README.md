@@ -8,7 +8,7 @@ This project explores a text dataset of SMS messages labeled as spam or ham with
 
 The following dataset was used to develop this model:  
 
-Almeida,Tiago and Hidalgo,Jos. (2012). SMS Spam Collection. UCI Machine Learning Repository. https://doi.org/10.24432/C5CC84.  
+Almeida,Tiago and Hidalgo,Jos. (2012). SMS Spam Collection. UCI Machine Learning Repository. <https://doi.org/10.24432/C5CC84>.  
 
 ## Work
 
