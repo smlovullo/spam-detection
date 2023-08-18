@@ -1,0 +1,7 @@
+hyperparameters:
+  hidden-layer-sizes: [50, 50]
+  learning-rate: "constant"
+  alpha: 0.001
+  solver: "adam"
+  activation: "relu"
+  max-iter: 1000

@@ -1,11 +1,10 @@
-import os
 import logging
 import joblib
 from datetime import datetime
 
 from sklearn.pipeline import Pipeline
 
-from src.utils.constants import LoggerConstants, ModelConstants, IOConstants
+from src.utils.constants import LoggerConstants, ModelConstants
 
 class Classifier:
 
@@ -37,7 +36,7 @@ class Classifier:
             errors = self.errors
             self.errors = []
             return (None, errors)
-        
+
         try:
             self._logger.info(f'Begin classifying message: {message}')
 
